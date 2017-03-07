@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: HongSeok-PI-App
+  host: HongSeok-PI-App
+  disk_quota: 1024M
+  services:
+  - HongSeok-PI-App-personality_insights
+  - Auto-Scaling-b2
+  - Availability Monitoring-jq
